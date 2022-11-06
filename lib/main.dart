@@ -26,8 +26,8 @@ class MyApp extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               Container(
-                width: 400,
-                height: 400,
+                width: 250,
+                height: 250,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.all(Radius.circular(8.0)),
                   color: Colors.grey[300],
@@ -36,10 +36,10 @@ class MyApp extends StatelessWidget {
                   Column(
                     children: [Image(
                   image: AssetImage('images/ebube-working.jpg'),
-                  height: 350,
-                  width: 400
+                  height: 230,
+                  width: 250
                 ),
-                const Text('Ebube Okoli (Slack: @okoli)', style: TextStyle(fontSize: 20, fontFamily: 'Open-Sans'),)],)
+                const Text('Ebube Okoli (Slack: @okoli)', style: TextStyle(fontSize: 15, fontFamily: 'Open-Sans'),)],)
               ),
             Column(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -51,8 +51,11 @@ class MyApp extends StatelessWidget {
                     
                     children: [
                     const Text('Key to Note', style: TextStyle(fontSize: 15, fontFamily: 'Open-Sans', decoration: TextDecoration.underline, )),
-                    const Text('''I am simply a problem solver.
-I eat challenges for breakfast. With my experience in various spheres of Software Development including FE/BE Web Dev, I can deliver functional attributes to your Team\'s Mobile App.''',
+                    const Text('''I am a Mobile Developer Intern at HNG9.
+I also am skilled with FE/BE Web Design. 
+I am picking up with Flutter and Dart, but have previously worked with Java.
+I enjoy tackling new challenges.
+I'll drive implementation of user-interactive UI at your organization.''',
                     style: TextStyle(fontSize: 17, fontFamily: 'Open-Sans',))]
                   ),
                   ),
@@ -98,8 +101,8 @@ I eat challenges for breakfast. With my experience in various spheres of Softwar
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               Container(
-                width: 400,
-                height: 400,
+                width: 250,
+                height: 200,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.all(Radius.circular(8.0)),
                   color: Colors.grey[300],
@@ -108,10 +111,10 @@ I eat challenges for breakfast. With my experience in various spheres of Softwar
                   Column(
                     children: [Image(
                   image: AssetImage('images/ebube-working.jpg'),
-                  height: 350,
-                  width: 400
+                  height: 180,
+                  width: 250
                 ),
-                const Text('Ebube Okoli (Slack: @okoli)', style: TextStyle(fontSize: 20, fontFamily: 'Open-Sans'),)],)
+                const Text('Ebube Okoli (Slack: @okoli)', style: TextStyle(fontSize: 15, fontFamily: 'Open-Sans'),)],)
               ),
             Column(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -123,10 +126,12 @@ I eat challenges for breakfast. With my experience in various spheres of Softwar
                   child: Column(
                     children: [
                     const Text('Key to Note', style: TextStyle(fontSize: 15, fontFamily: 'Open-Sans', decoration: TextDecoration.underline, )),
-                    const Text('''I am simply a problem solver.
-I eat challenges for breakfast. 
-With my experience in various spheres of Software Development including FE/BE Web Dev, I can deliver functional attributes to your Team\'s Mobile App.''',
-                    style: TextStyle(fontSize: 17, fontFamily: 'Open-Sans', overflow: TextOverflow.clip))]
+                    const Text('''I am a Mobile Developer Intern at HNG9.
+I also am skilled with FE/BE Web Design. 
+I am picking up with Flutter and Dart, but have previously worked with Java.
+I enjoy tackling new challenges.
+I'll drive implementation of user-interactive UI at your organization.''',
+                    style: TextStyle(fontSize: 12, fontFamily: 'Open-Sans', overflow: TextOverflow.clip))]
                   ),
                   ),
                 Column(
